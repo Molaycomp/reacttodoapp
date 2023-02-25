@@ -8,6 +8,8 @@ const Todo = () => {
   const [addItem,setAddItem]=useState("");
   const dispatch=useDispatch();
   const list=useSelector((state)=> state.Todoreducer.list);
+
+  const a=10;
   return (
    <>
       <div className="main-div">
